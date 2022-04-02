@@ -27,12 +27,14 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bills.verticalconsultants.in','65.1.18.54']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8080",
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    "bills.verticalconsultants.in",
+    "65.1.18.54",
 ] 
 
 REST_FRAMEWORK = {
